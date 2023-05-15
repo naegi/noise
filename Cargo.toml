@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+math = { git = "https://github.com/naegi/math", version = "0.1.0" }
 num-traits = "0.2.15"
 rand = { version = "0.8.5" }
-math = { path="../math/" }
+# math = { path="../math/" }
